@@ -1,0 +1,30 @@
+DATA QUALITY SUMMARY
+
+1. Successfully loaded all 10 CSV datasets.
+
+2. Verified dataset structure using:
+
+* shape
+* data types
+* first 5 rows
+
+3. Data anomaly checks:
+
+* Missing values detected in:
+  04_monthly_sip_inflows.csv
+* No duplicate issues found.
+
+4. Fund master exploration completed:
+
+* Multiple fund houses identified
+* 12 categories identified
+* 5 risk grades identified
+
+5. AMFI validation completed:
+
+* Total Master Codes: 40
+* Present in NAV: 40
+* Missing: 0
+
+Conclusion:
+Dataset passed initial ingestion and validation checks.
